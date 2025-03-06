@@ -16,7 +16,7 @@ export default function MainLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en">
         <head>
-            <title>{metadata.title ?? "Default Title"}</title>
+            <title>{String(metadata.title ?? "Default Title")}</title>
             <meta name="description" content={metadata.description ?? "Default description"} />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
         </head>
