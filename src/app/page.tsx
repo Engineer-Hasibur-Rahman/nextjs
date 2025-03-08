@@ -1,9 +1,17 @@
+// # Main page for the app
 import MainLayout from "@/layouts/MainLayout";
+import Header from "@/partials/Header";
+import HeroSection from "@/partials/HeroSection";
+import CategoryGrid from "@/partials/CategoryGrid";
 
 export default function Home() {
     return (
         <MainLayout>
-            <h1 className="text-3xl font-bold text-center">Welcome to MyShop</h1>
+            <div>
+                <Header />
+                <HeroSection />
+                <CategoryGrid />
+            </div>
         </MainLayout>
     );
 }

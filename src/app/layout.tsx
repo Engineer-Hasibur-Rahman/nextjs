@@ -1,4 +1,4 @@
-// app/layout.tsx
+// app/layout.tsx # Global layout (wrapper for main pages)
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
